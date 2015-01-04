@@ -33,6 +33,10 @@ p.intro {
   background: url(../img/pattern/px_by_Gre3g.png) 50% 0 fixed;
 }
 
+.portfolio-image {
+  margin-top: 20px;
+}
+
 /* text manipulators */
 .lato        { font-family: 'Lato';     }
 .pacifico    { font-family: 'Pacifico'; }
