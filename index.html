@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>Openquote Design</title>
+  <meta name="robots" content="index, follow, noimageindex" />
+  <link href='ext/bootstrap/css/bootstrap.min.css' rel='stylesheet' />
+  <link href='css/quote-style.css' rel='stylesheet' />
+  <link href='http://fonts.googleapis.com/css?family=Pacifico|Lato' rel='stylesheet' type='text/css' />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+  <div class='jumbotron jumbotron-head'>
+      <div class='container'>
+        <div class='hidden-xs'>
+          <img src='img/logo/binarylogo_light_64pt.png' />
+        </div>
+        <div class='visible-xs'>
+          <img src='img/logo/binarylogo_light_32pt.png' />
+        </div>
+      </div>
+  </div>
+  <div class='spacer-xl'></div>
+  <div class='container center'>
+    <header>
+    <h1 id='hola_fit' class='black pacifico'>Hola!</h1>
+    </header>
+  </div>
+  <div class='narrow container'>
+    <p class='intro'>
+      My name is Jared. I am a programmer, web developer, and general-purpose 
+      nerd living in Austin, TX.
+    </p>
+    <p class='intro'>
+      I have recently finished a degree in Computer Science and English at the 
+      University of Texas. I am currently looking for work&mdash;both freelance 
+      and full-time.
+    </p>
+  </div>
+  <div class='spacer-xl'></div>
+  <div class='jumbotron jumbotron-2'>
+    <h1>Projects</h1>
+  </div>
+  <div class='container'>
+    <div class='spacer-s'></div>
+    <div class='row'>
+      <div class='col-md-4 center'>
+        <img src='img/logo/logo.png' />
+      </div>
+      <div class='col-md-8'>
+        <h1>Savin' Eleven</h1>
+        <p>
+          I worked on this project with 
+          <a href='http://designbyash.com'>Ashley Solano</a> and 
+          <a href='http://tcschiller.com'>TC Schiller</a> 
+          at a hackathon hosted by T-3 and sponsored by 7-Eleven. We hoped to 
+          design an app that allowed users to engage with 7-Eleven during a 
+          visit with as little effort as possible.
+        </p>
+        <p>
+          We came up with Savin' Eleven, a web app that provides the user with 
+          a countdown for a free Slurpee every month. If the user checks in at 
+          a 7-Eleven location a whole week is taken off the countdown.
+        </p>
+        <p>
+          The app was a success! After a blistering 24 hours of work we managed 
+          to win third place in the hackathon. Our web app was even selected by 
+          Seelio as one of their favorite projects of 2013. The 7-Eleven API 
+          was only publicly usable for the hackathon, but you can still 
+          <a href='https://github.com/tcschiller/savin-eleven'>see our work on Github</a>.
+        </p>
+      </div>
+    </div>
+    <div class='spacer-s'></div>
+    <div class='row'>
+      <div class='col-md-4 center'>
+        <img src='img/logo/logo.png' />
+      </div>
+      <div class='col-md-8'>
+        <h1>GeoBeacon</h1>
+        <p>
+          I worked with 
+          <a href='https://github.com/katieensign'>Katherine Ensign</a> and 
+          <a href='http://www.cs.utexas.edu/~jefftli/'>Jeffrey Li</a> to 
+          develop an Android app that simplifies location sharing for the user. 
+          Using GeoBeacon a user can immediately text a friend the nearest 
+          address to her location along with a Google Maps URL showing that 
+          location.
+        </p>
+        <p>
+          GeoBeacon also provides specialized messaging in case of an 
+          emergency. A user can manage an emergency contact list. When a user 
+          needs to send a distress message he can share his specific 
+          geographic coordinates&mdash;in addition the nearest 
+          address&mdash;with the click of a button. The message will be sent to 
+          all emergency contacts as well as 911.
+        </p>
+        <p>
+          GeoBecaon is a completed app, however, due to the delay of national 
+          <a href='http://www.fcc.gov/text-to-911'>text-to-911</a> 
+          implementation we have postponed releasing GeoBecaon on Google Play. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class='spacer-s'></div> 
+  <div class='jumbotron jumbotron-3'>
+    <h1>Info</h1>
+  </div>
+  <div class='spacer-xl'></div>
+
+  <script src='ext/fittext/jquery.fittext.js'></script>
+  <script type='text/javascript'>
+    $('#hola_fit').fitText(0.4, {minFontSize: '32px', maxFontSize: '256px'});
+  </script>
+</body>
