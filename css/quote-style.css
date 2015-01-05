@@ -52,3 +52,13 @@ p.intro {
 .spacer-m    { height: 16px;       }
 .spacer-l    { height: 32px;       }
 .spacer-xl   { height: 64px;       }
+
+.noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
