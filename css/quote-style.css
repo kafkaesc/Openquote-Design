@@ -14,27 +14,41 @@ p.intro {
 .jumbotron {
   color: #eee;
   text-align: center;
-  margin: 0 auto; 
-  width: 100%; 
-  position: relative; 
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
 }
 
 .jumbotron-head {
-  background: url(../img/pattern/twinkle_twinkle.png) 50% 0 fixed; 
+  background: url(../img/pattern/twinkle_twinkle.png) 50% 0 fixed;
   height: 400px;
   padding-top: 128px;
 }
 
+
 .jumbotron-2 {
-  background: url(../img/pattern/dark_geometric.png) 50% 0 fixed;   
+  background: url(../img/pattern/footer_lodyas.png) 50% 0 fixed;
 }
 
 .jumbotron-3 {
+  background: url(../img/pattern/dark_geometric.png) 50% 0 fixed;
+}
+
+.jumbotron-4 {
   background: url(../img/pattern/px_by_Gre3g.png) 50% 0 fixed;
 }
 
 .portfolio-image {
   margin-top: 20px;
+}
+
+.inkana-sizer {
+  width: 70%;
+}
+
+.client-logo {
+  width: 80%;
+  max-width: 300px;
 }
 
 /* text manipulators */

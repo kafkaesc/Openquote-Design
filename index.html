@@ -9,6 +9,7 @@
   <link href='css/quote-style.css' rel='stylesheet' />
   <link href='http://fonts.googleapis.com/css?family=Pacifico|Lato' rel='stylesheet' type='text/css' />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <meta name="viewport" content="initial-scale=1">
 </head>
 <body>
   <div class='jumbotron jumbotron-head'>
@@ -29,16 +30,37 @@
   </div>
   <div class='narrow container'>
     <p class='intro'>
-      My name is Jared. I am a programmer, web developer, and general-purpose 
-      nerd living in Austin, TX. I have recently finished a degree in Computer 
+      My name is Jared. I am a programmer, web developer, and general-purpose
+      nerd living in Austin, TX. I have recently finished a degree in Computer
       Science and English at the University of Texas.
     </p>
   </div>
   <div class='spacer-xl'></div>
-  <div class='jumbotron jumbotron-2'>
+  </div>
+  <div class='jumbotron jumbotron-3'>
     <h1>Projects</h1>
   </div>
   <div class='container'>
+    <div class='spacer-s'></div>
+    <div class='row'>
+      <div class='col-md-4 center'>
+        <img class='portfolio-image inkana-sizer' src='img/portfolio/inkana.png' />
+      </div>
+      <div class='col-md-8'>
+        <h1>Inkana</h1>
+        <p>
+          I built Inkana when I first began learning Japanese. I used to it
+          help myself learn
+          <a href='https://en.wikipedia.org/wiki/Kana'>hiragana and katakana</a>.
+          Flashcards are my favorite way to learn new information and building a
+          digital version was a lot of fun.
+        </p>
+        <p>
+          Inkana was built using <a href='https://reactjs.org/'>React</a> and
+          you can view all my code on
+          <a href='https://github.com/kafkaesc/Inkana'>GitHub</a>.
+      </div>
+    </div>
     <div class='spacer-s'></div>
     <div class='row'>
       <div class='col-md-4 center'>
@@ -47,23 +69,23 @@
       <div class='col-md-8'>
         <h1>Savin' Eleven</h1>
         <p>
-          I worked on this project with 
-          <a href='http://designbyash.com'>Ash Solano</a> and 
-          <a href='http://tcschiller.com'>TC Schiller</a> 
-          at a hackathon hosted by T-3 and sponsored by 7-Eleven. We wanted to 
-          design an app that allowed users to engage with 7-Eleven during a 
+          I worked on this project with
+          <a href='http://designbyash.com'>Ash Solano</a> and
+          <a href='http://tcschiller.com'>TC Schiller</a>
+          at a hackathon hosted by T-3 and sponsored by 7-Eleven. We wanted to
+          design an app that allowed users to engage with 7-Eleven during a
           visit with as little effort as possible.
         </p>
         <p>
-          We came up with Savin' Eleven, a web app that provides the user with 
-          a countdown to a free Slurpee every month. If the user checks in at 
+          We came up with Savin' Eleven, a web app that provides the user with
+          a countdown to a free Slurpee every month. If the user checks in at
           a 7-Eleven location a whole week is taken off their countdown.
         </p>
         <p>
-          The app was a success! After a blistering 24 hours of work we managed 
-          to win third place in the hackathon. Our web app was even selected by 
-          Seelio as one of their nine favorite projects of 2013. The 7-Eleven 
-          API was only publicly usable for the hackathon, but you can still 
+          The app was a success! After a blistering 24 hours of work we managed
+          to win third place in the hackathon. Our web app was even selected by
+          Seelio as one of their nine favorite projects of 2013. The 7-Eleven
+          API was only publicly usable for the hackathon, but you can still
           <a href='https://github.com/tcschiller/savin-eleven'>see our work on Github</a>.
         </p>
       </div>
@@ -76,29 +98,29 @@
       <div class='col-md-8'>
         <h1>GeoBeacon</h1>
         <p>
-          I worked with 
-          <a href='https://github.com/katieensign'>Katherine Ensign</a> and 
-          <a href='http://www.cs.utexas.edu/~jefftli/'>Jeffrey Li</a> to 
-          develop an Android app that simplifies location sharing for the user. 
-          With GeoBeacon a user can immediately text a friend the nearest 
-          address to her location along with a Google Maps URL showing that 
+          I worked with
+          <a href='https://github.com/katieensign'>Katherine Ensign</a> and
+          <a href='http://www.cs.utexas.edu/~jefftli/'>Jeffrey Li</a> to
+          develop an Android app that simplifies location sharing for the user.
+          With GeoBeacon a user can immediately text a friend the nearest
+          address to her location along with a Google Maps URL showing that
           location.
         </p>
         <p>
-          GeoBeacon also provides specialized messaging in case of an 
-          emergency. A user can manage an emergency contact list. When a user 
-          needs to send a distress message he can share his specific 
-          geographic coordinates&mdash;in addition the nearest 
-          address&mdash;with the click of a button. The message will be sent to 
+          GeoBeacon also provides specialized messaging in case of an
+          emergency. A user can manage an emergency contact list. When a user
+          needs to send a distress message he can share his specific
+          geographic coordinates&mdash;in addition the nearest
+          address&mdash;with the click of a button. The message will be sent to
           all emergency contacts as well as 911.
         </p>
         <p>
-          GeoBecaon is a completed app, however, due to the delay of national 
-          <a href='http://www.fcc.gov/text-to-911'>text-to-911</a> 
+          GeoBecaon is a completed app, however, due to the delay of national
+          <a href='http://www.fcc.gov/text-to-911'>text-to-911</a>
           implementation we have postponed releasing GeoBecaon on Google Play.
         </p>
         <p>
-          For more information, visit the 
+          For more information, visit the
           <a href='http://geobeacon.net'>GeoBeacon website</a>.
         </p>
       </div>
@@ -111,35 +133,35 @@
       <div class='col-md-8'>
         <h1>Cold War</h1>
         <p>
-          The theme for 
-          <a href='http://globalgamejam.org/news/ggj14-theme'>Global Game Jam 2014</a> 
-          was, "We don't see things as they are, we see them as we are." After 
-          a bit of philosophical pondering, my team came up with a concept. 
+          The theme for
+          <a href='http://globalgamejam.org/news/ggj14-theme'>Global Game Jam 2014</a>
+          was, "We don't see things as they are, we see them as we are." After
+          a bit of philosophical pondering, my team came up with a concept.
         </p>
         <p>
-          Cold War is a game of perpetual defense. The player takes command  
-          of astronauts defending a base on Mars from incoming snowmen. The 
-          play area is a grid displaying the incoming snowmen, and each turn 
-          the player can spend resources to deploy various units. Our personal 
+          Cold War is a game of perpetual defense. The player takes command
+          of astronauts defending a base on Mars from incoming snowmen. The
+          play area is a grid displaying the incoming snowmen, and each turn
+          the player can spend resources to deploy various units. Our personal
           favorite is the giant toaster that catches and melts snowmen.
         </p>
         <p>
-          Not only does the player have to worry about units, she must also 
-          occasionally change perspective. There are three types of snowmen: 
-          common, uncommon, and rare. But a player can only identify two types 
-          at any given time. The rare snowmen wear a red scarf and do a lot of 
-          damage. The uncommon snowmen wear a blue scarf and only do a moderate 
-          amount of damage. In red mode a player can see the rare snowmen, and 
-          in blue mode she can see the uncommon snowmen. The user must 
-          occasionally change perspective to find out which snowmen are rare or 
-          uncommon, because if he stays in one mode some of them will just look 
+          Not only does the player have to worry about units, she must also
+          occasionally change perspective. There are three types of snowmen:
+          common, uncommon, and rare. But a player can only identify two types
+          at any given time. The rare snowmen wear a red scarf and do a lot of
+          damage. The uncommon snowmen wear a blue scarf and only do a moderate
+          amount of damage. In red mode a player can see the rare snowmen, and
+          in blue mode she can see the uncommon snowmen. The user must
+          occasionally change perspective to find out which snowmen are rare or
+          uncommon, because if he stays in one mode some of them will just look
           like common snowmen!
         </p>
       </div>
     </div>
   </div>
-  <div class='spacer-s'></div> 
-  <div class='jumbotron jumbotron-3'>
+  <div class='spacer-s'></div>
+  <div class='jumbotron jumbotron-4'>
     <h1>About Me</h1>
   </div>
   <div class='spacer-xl'></div>
@@ -148,9 +170,9 @@
     <div class='spacer-m'></div>
     <div class='col-md-offset-2 col-md-8'>
       <p>
-        When I'm not busy coding I enjoy reading, writing, and cooking. I'm a 
-        huge fan of Star Trek and can never pass up an opportunity to enjoy 
-        Chinese dumplings. Feel free to take a look at my resume and 
+        When I'm not busy coding I enjoy reading, writing, and cooking. I'm a
+        huge fan of Star Trek and can never pass up an opportunity to enjoy
+        Chinese dumplings. Feel free to take a look at my resume and
         contact me if you are interested in my work!
       </p>
       <p class='center'>
@@ -177,4 +199,14 @@
   <script type='text/javascript'>
     $('#hola_fit').fitText(0.4, {minFontSize: '32px', maxFontSize: '256px'});
   </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62957940-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
+</html>
